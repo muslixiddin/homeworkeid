@@ -1,0 +1,48 @@
+.aksiya{
+        &-box{
+            margin: 20px 0px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        &-box-itms{
+            width: 300px;
+            height: 400px;
+            // border: 2px solid;
+            // padding: 10px 20px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+        }
+        &-box-itms-title{
+            font-size: 25px;
+            margin: 0px 20px;
+        }
+        &-box-itms-disc{
+            color: red;
+            font-size: 21px;
+            margin: 0px 20px;
+        }
+        &-box-itms-button{
+            width: 100%;
+            padding: 10px 0px;
+            background-color: orange;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+        }
+}
+@media(min-width:768px){
+    .aksiya{
+        &-box{
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+}

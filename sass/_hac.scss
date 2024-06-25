@@ -1,0 +1,35 @@
+.hac{
+    &-box{
+        width: 100%;
+        background-color: black;
+        padding: 30px 30px;
+        border-radius: 8px;
+    }
+    &-box-title{
+        // width: 50%;
+        color: white;
+    }
+    &-box2{
+        margin: 40px 0px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 20px 10px;
+        border-radius: 8px;
+        justify-content: space-between;
+        background-color: white;
+    }
+    &-box2-itms{
+        background-color: white;
+    }
+}
+@media(min-width:768px){
+    .hac{
+        &-box{
+            padding: 40px 30px 80px;
+        }
+        &-box-title{
+            width:60%;
+        }
+    }
+}

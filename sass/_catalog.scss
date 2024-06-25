@@ -1,0 +1,59 @@
+.catalog{
+    margin: 60px 0px;
+    width: 100%;
+    background-color: white;
+    &-box{
+        margin: 20px 0px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    &-box-itms{
+        width: 130px;
+        height: 170px;
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #D3E5F2;
+    }
+    .buli{
+        background: #E2C6BE;
+
+    }
+    .chorni{
+        background: #DADBE0;
+    }
+    .blu{
+        background: #E2EEC0;
+    }
+    .aranjivi{
+        background: #C2BCE8;
+    }
+}
+@media(min-width:768px){
+    .catalog{
+        &-box-itms{
+            width: 200px;
+            height: 230px;
+            padding: 20px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            background-color: #D3E5F2;
+        }
+    }
+}
+@media(min-width:992px){
+    .catalog{
+        &-box-itms{
+            width: 180px;
+            height: 230px;
+            padding: 20px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            background-color: #D3E5F2;
+        }
+    }
+}
